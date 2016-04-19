@@ -8,7 +8,7 @@
          "platforms":[
             {
                "name":"Alorium XLR8 Boards (pre-release)",
-               "architecture":"avr-proto",
+               "architecture":"avr",
                "version":"0.8.0",
                "category":"Contributed",
                "url":"https://github.com/AloriumTechnology/Prototype_Boards/raw/master/alorium-avr-0.8.0-proto.tar.bz2",
