@@ -1,7 +1,7 @@
 {
    "packages":[
       {
-         "name":"alorium",
+         "name":"alorium-proto",
          "maintainer":"Alorium Technology",
          "websiteURL":"http://www.aloriumtech.com",
          "email":"info@aloriumtech.com",
