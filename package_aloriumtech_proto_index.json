@@ -41,6 +41,7 @@
                   }
                ]
             },
+            {
                "name":"Alorium XLR8 Boards (pre-release)",
                "architecture":"avr",
                "version":"0.9.0-proto",
