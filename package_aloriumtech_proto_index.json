@@ -38,7 +38,13 @@
                      "packager":"alorium",
                      "name":"xlr8reconfig",
                      "version":"1.1.0"
+                  },
+                  {
+                     "packager":"alorium-proto",
+                     "name":"xlr8tools",
+                     "version":"1.0.0"
                   }
+
                ]
             },
             {
