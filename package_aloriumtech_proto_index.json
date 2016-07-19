@@ -13,8 +13,8 @@
                "category":"Contributed",
                "url":"https://github.com/AloriumTechnology/Prototype_Boards/raw/master/alorium-avr-0.10.0-proto.tar.bz2",
                "archiveFileName":"alorium-avr.0.10.0-proto.tar.bz2",
-               "checksum":"SHA-256:8a4ea9a04a3da2c152f4112de09ed673ce7d25122b3ffcf4eb687e01ea681cd4",
-               "size":"683885",
+               "checksum":"SHA-256:40234c0425af5e6bfdd66f8821995e4ba648bad1cb77a6f1e2c6f773156f467d",
+               "size":"684049",
                "help":{
                   "online":"http://www.aloriumtech.com/xlr8-quickstart/"
                },
