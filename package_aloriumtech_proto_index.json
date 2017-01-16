@@ -9,6 +9,47 @@
             {
                "name":"Alorium XLR8 Boards (pre-release)",
                "architecture":"avr",
+               "version":"1.6.0",
+               "category":"Contributed",
+               "url":"https://github.com/AloriumTechnology/Prototype_Boards/raw/master/alorium-avr-1.6.0-proto.tar.bz2",
+               "archiveFileName":"alorium-avr-1.6.0-proto.tar.bz2",
+               "checksum":"SHA-256:f9e93f03188fcab33e925d66da3b1b50ffb3d8e68ad474e20e7f358c7e48705c",
+               "size":"1149660",
+               "help":{
+                  "online":"http://www.aloriumtech.com/xlr8-quickstart/"
+               },
+               "boards":[
+                  { "name":"Alorium XLR8 pre-release" },
+                  { "name":"Alorium XLR8 green board" },
+                  { "name":"Alorium OpenXLR8 custom fpga image" }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  },
+                  {
+                     "packager":"alorium",
+                     "name":"xlr8reconfig",
+                     "version":"1.1.0"
+                  },
+                  {
+                     "packager":"alorium-proto",
+                     "name":"xlr8tools",
+                     "version":"1.1.0"
+                  }
+
+               ]
+            },
+            {
+               "name":"Alorium XLR8 Boards (pre-release)",
+               "architecture":"avr",
                "version":"1.5.0",
                "category":"Contributed",
                "url":"https://github.com/AloriumTechnology/Prototype_Boards/raw/master/alorium-avr-1.5.0.tar.bz2",
