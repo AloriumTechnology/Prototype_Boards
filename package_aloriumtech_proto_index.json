@@ -20,7 +20,7 @@
                },
                "boards":[
                   { "name":"Alorium XLR8 pre-release" },
-                  { "name":"Alorium OpenXLR8 custom fpga image" }
+                  { "name":"Alorium OpenXLR8 custom fpga image" },
                   { "name":"Alorium SNO pre-release" }
                ],
                "toolsDependencies":[
