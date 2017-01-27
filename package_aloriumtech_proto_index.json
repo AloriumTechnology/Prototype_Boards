@@ -288,7 +288,7 @@
                {
                  "host": "x86_64-apple-darwin",
                  "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8tools-1.1.0-osx.tar.bz2",
-                 "archiveFileName": "xlr8tools-1.1.0.tar.bz2",
+                 "archiveFileName": "xlr8tools-1.1.0-osx.tar.bz2",
                  "checksum": "SHA-256:2f594539c4a6045608c4e8882c7ddf45b2d48979f7b6b1ac4179e80f244281a5",
                  "size": "3833625"
                },
