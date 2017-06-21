@@ -9,6 +9,52 @@
             {
                "name":"Alorium XLR8 Boards (pre-release)",
                "architecture":"avr",
+               "version":"0.11.0-proto",
+               "category":"Contributed",
+               "url":"https://github.com/AloriumTechnology/Prototype_Boards/raw/master/alorium-avr-0.11.0-proto.tar.bz2",
+               "archiveFileName":"alorium-avr-0.11.0-proto.tar.bz2",
+               "checksum":"SHA-256:1ba9ea039c6893fa19b47feacdb46e683bca1bb534029112882678682fbe0394",
+               "size":"577654",
+               "help":{
+                  "online":"http://www.aloriumtech.com/xlr8-quickstart/"
+               },
+               "boards":[
+                  { "name":"Alorium XLR8 pre-release" },
+                  { "name":"Alorium OpenXLR8 custom fpga image" },
+                  { "name":"Alorium SNO pre-release" }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  },
+                  {
+                     "packager":"alorium",
+                     "name":"xlr8reconfig",
+                     "version":"1.1.0"
+                  },
+                  {
+                     "packager":"alorium-proto",
+                     "name":"xlr8tools",
+                     "version":"1.1.0"
+                  }
+               ]
+            },
+      {
+         "name":"alorium-proto",
+         "maintainer":"Alorium Technology",
+         "websiteURL":"http://www.aloriumtech.com",
+         "email":"info@aloriumtech.com",
+         "platforms":[
+            {
+               "name":"Alorium XLR8 Boards (pre-release)",
+               "architecture":"avr",
                "version":"1.8.0",
                "category":"Contributed",
                "url":"https://github.com/AloriumTechnology/Prototype_Boards/raw/master/alorium-avr-1.8.0.tar.bz2",
