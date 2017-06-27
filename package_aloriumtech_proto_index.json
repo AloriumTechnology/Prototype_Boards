@@ -36,14 +36,14 @@
                               "version":"6.0.1-arduino5"
                           },
                           {
-                              "packager":"alorium-proto",
+                              "packager":"alorium",
                               "name":"xlr8reconfig",
-                              "version":"1.2.0"
+                              "version":"1.1.0"
                           },
                           {
                               "packager":"alorium-proto",
                               "name":"xlr8tools",
-                              "version":"1.2.0"
+                              "version":"1.1.0"
                           }
                       ]
                   },
@@ -447,88 +447,6 @@
                                       "archiveFileName": "xlr8tools-1.0.0.tar.bz2",
                                       "checksum": "SHA-256:a05fe7496332a8fa6b27e5f00d65770e1e3c7ae7c5e24b011e3babeb460addbe",
                                       "size": "2567"
-                                  }
-                              ]
-                          },
-                          {
-                              "name": "xlr8reconfig",
-                              "version": "1.2.0",
-                              "systems": [
-                                  {
-                                      "host": "x86_64-apple-darwin",
-                                      "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8reconfig-1.2.0-osx.tar.bz2",
-                                      "archiveFileName": "xlr8reconfig-1.2.0-osx.tar.bz2",
-                                      "checksum": "SHA-256:9179774256f007e1955e1465853a842a8dea4e3c2a19801aa9dd4f7c012f6ec9",
-                                      "size": "3908518"
-                                  },
-                                  {
-                                      "host": "arm-linux-gnueabihf",
-                                      "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8reconfig-1.2.0.tar.bz2",
-                                      "archiveFileName": "xlr8reconfig-1.2.0.tar.bz2",
-                                      "checksum": "SHA-256:79281aa4a5f87ebbf0f4dc7304d1aecf3de62a82108c61849b9fc7c855d2d484",
-                                      "size": "17139"
-                                  },
-                                  {
-                                      "host": "i686-mingw32",
-                                      "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8reconfig-1.2.0-windows.tar.bz2",
-                                      "archiveFileName": "xlr8reconfig-1.2.0-windows.tar.bz2",
-                                      "checksum": "SHA-256:2c44f2551dffe55ace3ba912b4b5ab7499711a138bc2a7735a265b03ce1098bc",
-                                      "size": "859094"
-                                  },
-                                  {
-                                      "host": "x86_64-pc-linux-gnu",
-                                      "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8reconfig-1.2.0.tar.bz2",
-                                      "archiveFileName": "xlr8reconfig-1.2.0.tar.bz2",
-                                      "checksum": "SHA-256:79281aa4a5f87ebbf0f4dc7304d1aecf3de62a82108c61849b9fc7c855d2d484",
-                                      "size": "17139"
-                                  },
-                                  {
-                                      "host": "i686-pc-linux-gnu",
-                                      "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8reconfig-1.2.0.tar.bz2",
-                                      "archiveFileName": "xlr8reconfig-1.2.0.tar.bz2",
-                                      "checksum": "SHA-256:79281aa4a5f87ebbf0f4dc7304d1aecf3de62a82108c61849b9fc7c855d2d484",
-                                      "size": "17139"
-                                  }
-                              ]
-                          },
-                          {
-                              "name": "xlr8tools",
-                              "version": "1.2.0",
-                              "systems": [
-                                  {
-                                      "host": "x86_64-apple-darwin",
-                                      "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8tools-1.2.0-osx.tar.bz2",
-                                      "archiveFileName": "xlr8tools-1.2.0-osx.tar.bz2",
-                                      "checksum": "SHA-256:818715a053177cf669db95cf2aef52d30fe8f5bc7849c81788ff54085e90952a",
-                                      "size": "3854941"
-                                  },
-                                  {
-                                      "host": "arm-linux-gnueabihf",
-                                      "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8tools-1.2.0.tar.bz2",
-                                      "archiveFileName": "xlr8tools-1.2.0.tar.bz2",
-                                      "checksum": "SHA-256:79fc04a9e25328bc0c1867728de12ac79f3fc0783acf3fc46c85749a7ca41035",
-                                      "size": "2562"
-                                  },
-                                  {
-                                      "host": "i686-mingw32",
-                                      "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8tools-1.2.0-windows.tar.bz2",
-                                      "archiveFileName": "xlr8tools-1.2.0-windows.tar.bz2",
-                                      "checksum": "SHA-256:47d2874ec446aec051c09ce144f4d5853ff67b3b6a730dc6e0f1ef0d2ed1517d",
-                                      "size": "856455"
-                                  },
-                                  {
-                                      "host": "x86_64-pc-linux-gnu",
-                                      "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8tools-1.2.0.tar.bz2",
-                                      "archiveFileName": "xlr8tools-1.2.0.tar.bz2",
-                                      "checksum": "SHA-256:79fc04a9e25328bc0c1867728de12ac79f3fc0783acf3fc46c85749a7ca41035",
-                                      "size": "2562"
-                                  },
-                                  {
-                                      "host": "i686-pc-linux-gnu",
-                                      "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8tools-1.2.0.tar.bz2",
-                                      "archiveFileName": "xlr8tools-1.2.0.tar.bz2",
-                                      "checksum": "SHA-256:79fc04a9e25328bc0c1867728de12ac79f3fc0783acf3fc46c85749a7ca41035",
-                                      "size": "2562"
                                   }
                               ]
                           }
