@@ -36,12 +36,12 @@
                               "version":"6.0.1-arduino5"
                           },
                           {
-                              "packager":"alorium",
+                              "packager":"alorium-proto",
                               "name":"xlr8reconfig",
                               "version":"1.2.0"
                           },
                           {
-                              "packager":"alorium",
+                              "packager":"alorium-proto",
                               "name":"xlr8tools",
                               "version":"1.2.0"
                           }
