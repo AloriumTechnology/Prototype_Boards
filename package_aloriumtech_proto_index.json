@@ -48,12 +48,6 @@
                       ]
                   },
                   {
-                      "name":"alorium-proto",
-                      "maintainer":"Alorium Technology",
-                      "websiteURL":"http://www.aloriumtech.com",
-                      "email":"info@aloriumtech.com",
-                      "platforms":[
-                          {
                               "name":"Alorium XLR8 Boards (pre-release)",
                               "architecture":"avr",
                               "version":"1.8.0",
