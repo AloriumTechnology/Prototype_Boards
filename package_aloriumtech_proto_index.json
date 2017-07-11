@@ -343,8 +343,8 @@
                                       "host": "i686-mingw32",
                                       "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8reconfig-1.2.0-windows.tar.bz2",
                                       "archiveFileName": "xlr8reconfig-1.2.0-windows.tar.bz2",
-                                      "checksum": "SHA-256:e782ee662b26a5d01be50bbbb683be1139b31d13b8aa67c5d9e68c25be8e3123",
-                                      "size": "3418601"
+                                      "checksum": "SHA-256:e59dafc6239efaea507c54de94511c5952e7a8856af901a4a9f2c99b96182860",
+                                      "size": "3430561"
                                   },
                                   {
                                       "host": "x86_64-pc-linux-gnu",
