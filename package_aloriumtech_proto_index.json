@@ -329,8 +329,8 @@
                                       "host": "x86_64-apple-darwin",
                                       "url": "https://github.com/AloriumTechnology/Prototype_Boards/raw/master/avr/tools/xlr8reconfig-1.2.0-osx.tar.bz2",
                                       "archiveFileName": "xlr8reconfig-1.2.0-osx.tar.bz2",
-                                      "checksum": "SHA-256:c6161f0292be78369b1e36129f421c51230a18fcb99fa4242a5cabdf7fa4542e",
-                                      "size": "3880780"
+                                      "checksum": "SHA-256:d4f07e26064c1f60834a5c1749ff311e6016e1ecd939a98249ef459f1f8c2c6e",
+                                      "size": "3885362"
                                   },
                                   {
                                       "host": "arm-linux-gnueabihf",
