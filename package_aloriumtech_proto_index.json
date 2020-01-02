@@ -8,6 +8,54 @@
               "email":"info@aloriumtech.com",
               "platforms":[
                   {
+                      "name": "Alorium SAMD Boards",
+                      "architecture": "samd",
+                      "version": "0.1.0",
+                      "category": "Contributed",
+                      "url": "http://github.com/AloriumTechnology/Prototype_Boards/raw/master/alorium-samd-0.1.0.tar.bz2",
+                      "archiveFileName": "alorium-samd-0.1.0.tar.bz2",
+                      "checksum": "SHA-256:db08f5741713077f4869e021336ca792230ead32d6114456093a5cd4b9f1a349",
+                      "size": "5414445",
+                      "help":{
+                          "online":"http://www.aloriumtech.com/xlr8-quickstart/"
+                      },
+                      "boards": [
+                          { "name":"Alorium Evo pre-release" }
+                      ],
+                      "toolsDependencies": [
+                        {
+                          "packager": "arduino",
+                          "name": "arm-none-eabi-gcc",
+                          "version": "4.8.3-2014q1"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "bossac",
+                          "version": "1.7.0"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "bossac",
+                          "version": "1.8.0-48-gb176eee"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "openocd",
+                          "version": "0.9.0-arduino"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "CMSIS",
+                          "version": "4.5.0"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "CMSIS-Atmel",
+                          "version": "1.2.0"
+                        }
+                      ]
+                  },
+                  {
                       "name":"Alorium XLR8 Boards (pre-release)",
                       "architecture":"avr",
                       "version":"2.0.0",
