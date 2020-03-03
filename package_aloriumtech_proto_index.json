@@ -8,7 +8,55 @@
               "email":"info@aloriumtech.com",
               "platforms":[
                   {
-                      "name": "Alorium SAMD Boards",
+                      "name": "Alorium Technology SAMD Boards",
+                      "architecture": "samd",
+                      "version": "0.2.0",
+                      "category": "Contributed",
+                      "url": "http://github.com/AloriumTechnology/Prototype_Boards/raw/master/alorium-samd-0.2.0.tar.bz2",
+                      "archiveFileName": "alorium-samd-0.2.0.tar.bz2",
+                      "checksum": "SHA-256:59dd09ab829d3eea3bc4f68e79ed6f4e5fa0c6694ca173e9d895d8191d35f551",
+                      "size": "5418470",
+                      "help":{
+                          "online":"http://www.aloriumtech.com/xlr8-quickstart/"
+                      },
+                      "boards": [
+                          { "name":"Alorium Evo pre-release" }
+                      ],
+                      "toolsDependencies": [
+                        {
+                          "packager": "arduino",
+                          "name": "arm-none-eabi-gcc",
+                          "version": "4.8.3-2014q1"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "bossac",
+                          "version": "1.7.0"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "bossac",
+                          "version": "1.8.0-48-gb176eee"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "openocd",
+                          "version": "0.9.0-arduino"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "CMSIS",
+                          "version": "4.5.0"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "CMSIS-Atmel",
+                          "version": "1.2.0"
+                        }
+                      ]
+                  },
+                  {
+                      "name": "Alorium Technology SAMD Boards",
                       "architecture": "samd",
                       "version": "0.1.0",
                       "category": "Contributed",
