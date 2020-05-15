@@ -10,6 +10,54 @@
                   {
                       "name": "Alorium Technology SAMD Boards",
                       "architecture": "samd",
+                      "version": "0.3.0",
+                      "category": "Contributed",
+                      "url": "http://github.com/AloriumTechnology/Prototype_Boards/raw/master/alorium-samd-0.3.0.tar.bz2",
+                      "archiveFileName": "alorium-samd-0.3.0.tar.bz2",
+                      "checksum": "SHA-256:5b97703b68c0a067dbd479496951b097e51254e6592fd02c642f4f95aed534dd",
+                      "size": "5267587",
+                      "help":{
+                          "online":"http://www.aloriumtech.com/xlr8-quickstart/"
+                      },
+                      "boards": [
+                          { "name":"Evo pre-release" }
+                      ],
+                      "toolsDependencies": [
+                        {
+                          "packager": "arduino",
+                          "name": "arm-none-eabi-gcc",
+                          "version": "4.8.3-2014q1"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "bossac",
+                          "version": "1.7.0"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "bossac",
+                          "version": "1.8.0-48-gb176eee"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "openocd",
+                          "version": "0.9.0-arduino"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "CMSIS",
+                          "version": "4.5.0"
+                        },
+                        {
+                          "packager": "arduino",
+                          "name": "CMSIS-Atmel",
+                          "version": "1.2.0"
+                        }
+                      ]
+                  },
+                  {
+                      "name": "Alorium Technology SAMD Boards",
+                      "architecture": "samd",
                       "version": "0.2.0",
                       "category": "Contributed",
                       "url": "http://github.com/AloriumTechnology/Prototype_Boards/raw/master/alorium-samd-0.2.0.tar.bz2",
@@ -104,7 +152,7 @@
                       ]
                   },
                   {
-                      "name":"Alorium XLR8 Boards (pre-release)",
+                      "name":"Alorium XLR8 Family (8-bit AVR Compat.) Boards (pre-release)",
                       "architecture":"avr",
                       "version":"2.0.0",
                       "category":"Contributed",
@@ -116,9 +164,9 @@
                           "online":"http://www.aloriumtech.com/xlr8-quickstart/"
                       },
                       "boards":[
-                          { "name":"Alorium XLR8 pre-release" },
-                          { "name":"Alorium OpenXLR8 custom fpga image" },
-                          { "name":"Alorium SNO pre-release" }
+                          { "name":"XLR8 pre-release" },
+                          { "name":"OpenXLR8" },
+                          { "name":"SNO pre-release" }
                       ],
                       "toolsDependencies":[
                           {
